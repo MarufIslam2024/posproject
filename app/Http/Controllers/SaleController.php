@@ -15,4 +15,10 @@ class SaleController extends Controller
         $products = Product::where('user_id', $user_id)->get();
         return Inertia::render('SalePage',['products'=> $products,'customers'=> $customers]);
     }
+
+    public function SalesReportPage (Request $request){
+
+        return Inertia::render('SalesReportPage');
+
+    }
 }

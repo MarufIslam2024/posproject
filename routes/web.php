@@ -64,6 +64,8 @@ Route::middleware(SessionAuthenticate::class)->group(function(){
     
     //sale route
      Route::get('/create-sale', [SaleController::class, 'SalePage'])->name('SalePage');
+     Route::get('/SalesReportPage', [SaleController::class, 'SalesReportPage'])->name('SalesReportPage');
+
 
     //Dashboard Summary
     Route::get('/dashboard-summary', [DashboardController::class, 'DashboardSummary'])->name('DashboardSummary');

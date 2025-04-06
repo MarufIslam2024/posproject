@@ -47,6 +47,11 @@
                 <span class="side-bar-item-caption">Profile</span>
             </Link>
 
+            <Link href="/SalesReportPage" class="side-bar-item">
+                <span class="side-bar-item-icon"><i class="fa fa-file-invoice-dollar text-green" /></span>
+                <span class="side-bar-item-caption">Sales Report</span>
+            </Link>
+
             <Link href="/user-logout" class="side-bar-item">
                 <span class="side-bar-item-icon"><i class="fa fa-sign-out-alt text-green" /></span>
                 <span class="side-bar-item-caption">Logout</span>
